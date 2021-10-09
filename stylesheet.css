@@ -4,10 +4,24 @@
     margin-bottom: 10%;
     margin-left: 8%;
     margin-right: 8%;
+    display: flex;
+    line-height: 25px;
 }
 
 .opener {
-    color:cornsilk;
-    font-family: American Typewriter, serif;
+    color:#B4B4B4;
+    font-family: sfcamera-regular;
     margin-left: 3%;
+}
+
+.logo {
+    margin-top: 1.7%;
+    height: 80px;
+    width: 80px;
+    float: right;
+}
+
+@font-face {
+    font-family: sfcamera-regular;
+    src: url(sfcamera-regular1-webfont.woff);
 }
