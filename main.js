@@ -1,6 +1,6 @@
 // main.js file for sp0t0nline.html
 let counter = 0;
-const strings = ["welcome to sp0t.", "coming this fall.", "see you soon."]
+const strings = ["welcome to sp0t.", "coming spring 2022.", "see you soon."]
 
 function mainWriter() {
  //   setTimeout(typeWriter(strings[0], 0), 50);
