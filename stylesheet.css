@@ -55,7 +55,7 @@
     .body {
         margin-left: 6%;
         margin-right: 6%;
-        margin-top: 40%;
+        margin-top: 35%;
 
         font-size: 18px;
     }
@@ -82,16 +82,21 @@
     }
 
     .jobs {
-        margin-top: 60%;
+        margin-top: 65%;
     }
 
     .list {
-        margin-top: -3%;
+        margin-top: -6%;
     }
 }
 
 /* iPhone 8 and below */
 @media only screen and (max-height: 700px) {
+
+    .body {
+        margin-top: 30%
+    }
+
     .jobs {
         margin-top: 45%;
     }
