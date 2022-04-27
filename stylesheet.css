@@ -36,6 +36,35 @@
     padding-left: 18px;
 }
 
+/* mobile-only*/
+@media only screen and (max-width: 768px) {
+
+    .body {
+        margin-left: 6%;
+        margin-right: 6%;
+        margin-top: 25%;
+    }
+
+    .opener {
+        margin-left: 2%;
+        margin-top: 3%;
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .logo {
+        margin-left: 40%;
+        height: 20%;
+        width: 20%;
+        float: none;
+    }
+
+    .jobs {
+        margin-top: 60%;
+    }
+}
+
+
 a:link {
     color:#E6E6E6;
 }
