@@ -93,7 +93,7 @@
 /* iPhone 8 and below */
 @media only screen and (max-height: 700px) {
     .jobs {
-        margin-top: 45%
+        margin-top: 45%;
     }
 }
 
