@@ -1,30 +1,39 @@
 .body {
+
     background-color:#0D0D0D; 
     color:#E6E6E6;
+
     margin-top: 8%;
     margin-bottom: 10%;
     margin-left: 8%;
     margin-right: 8%;
-    line-height: 20px;
-}
 
-.opener {
+    line-height: 20px;
     font-family: sfcompact-medium;
     font-size: 19px;
+}
+
+.opener0 {
     margin-left: 14%;
     margin-top: 6%;
+}
+
+.opener1 {
+    margin-left: 14%;
 }
 
 .logo {
     height: 90px;
     width: 86px;
     float: left;
+
     margin-left: 4%;
     margin-top: -0.5%
 }
 
 .jobs {
     margin-top: 20%;
+
     font-family: sfcompact-bold;
     font-size: 22px;
 }
@@ -32,9 +41,13 @@
 .list {
     font-family: sfcompact-medium;
     font-size: 19px;
+
     line-height: 30px;
     padding-left: 18px;
+    margin-top: -1%;
 }
+
+
 
 /* mobile-only*/
 @media only screen and (max-width: 768px) {
@@ -42,13 +55,22 @@
     .body {
         margin-left: 6%;
         margin-right: 6%;
-        margin-top: 25%;
+        margin-top: 40%;
+
+        font-size: 18px;
     }
 
-    .opener {
+    .opener0 {
         margin-left: 2%;
-        margin-top: 3%;
-        font-size: 17px;
+        margin-top: 4.5%;
+
+        text-align: center;
+    }
+
+    .opener1 {
+        margin-top: -2%;
+        margin-left: 2%;
+
         text-align: center;
     }
 
@@ -62,8 +84,18 @@
     .jobs {
         margin-top: 60%;
     }
+
+    .list {
+        margin-top: -3%;
+    }
 }
 
+/* iPhone 8 and below */
+@media only screen and (max-height: 700px) {
+    .jobs {
+        margin-top: 45%
+    }
+}
 
 a:link {
     color:#E6E6E6;
