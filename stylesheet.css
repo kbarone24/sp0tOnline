@@ -55,7 +55,7 @@
     .body {
         margin-left: 6%;
         margin-right: 6%;
-        margin-top: 35%;
+        margin-top: 38%;
 
         font-size: 18px;
     }
@@ -86,12 +86,12 @@
     }
 
     .list {
-        margin-top: -6%;
+        margin-top: -4%;
     }
 }
 
 /* iPhone 8 and below */
-@media only screen and (max-height: 700px) {
+@media only screen and (max-height: 600px) {
 
     .body {
         margin-top: 30%
