@@ -72,14 +72,6 @@
     }
 }
 
-a:link {
-    color:#E6E6E6;
-}
-
-a:visited {
-    color:#E6E6E6;
-}
-
 @font-face {
     font-family: Fraunces;
     src: url(Assets/fraunces.ttf);
