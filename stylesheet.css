@@ -10,19 +10,16 @@
     font-family: Fraunces;
     font-size: 30px;
 }
-
 .opener {
     margin-top: 1%;
     margin-right: 2%;
     text-align: center;
 }
-
 .logo {
     margin-top: 0%;
     width: 50%;
     margin-left: 25%;
 }
-
 .button {
     margin-top: 2%;
     background-color: black;
@@ -44,12 +41,10 @@
         font-size: 18px;
         line-height: 22px;
     }
-
     .opener {
         margin-top: 3%;
         width: 100%
     }
-
     .logo {
         margin-left: 6%;
         width: 88%;
