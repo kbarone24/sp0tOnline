@@ -33,6 +33,23 @@
     aspect-ratio: 7;
     margin-left: 34%;
 }
+div {
+    margin: auto;
+    width: 50%;
+}
+.privacyButton {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    overflow: hidden;
+    outline: none;
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+    font-size: small;
+    font-family: SFCompactText-Regular;
+    text-align: center;
+}
 
 /* mobile-only*/
 @media only screen and (max-width: 768px) {
@@ -57,6 +74,10 @@
         margin-left: 3%;
         border-radius: 13.64px;
     }
+    .privacyButton {
+        right: 5%;
+        left: 5%;
+    }
 }
 
 /* iPhone 8 and below */
@@ -73,4 +94,8 @@
 @font-face {
     font-family: SFCompactText-Bold;
     src: url(Assets/SF-Compact-Text-Bold.otf);
+}
+@font-face {
+    font-family: SFCompactText-Regular;
+    src: url(Assets/SF-Compact-Text-Regular.otf);
 }
