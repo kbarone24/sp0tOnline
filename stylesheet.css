@@ -23,11 +23,12 @@
 .opener {
     font-family: Comic Sans MS;
     font-size: 150px;
+    font-weight: 700;
     display: inline-flex;
     margin-inline-start: 30px;
 }
 .subtext {
-    margin-top: 62px;
+    margin-top: 72px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -36,6 +37,7 @@
 .subtextLabel {
     margin-top: 0%;
     font-size: 30px;
+    font-weight: 700;
     text-align: center;
     font-family: Comic Sans MS;
 }
@@ -46,7 +48,7 @@
     justify-content: center;
 }
 .downloadButton {
-    background-image: url(Assets/downloadIcon.png);
+    background-image: url(Assets/downloadIcon.svg);
     background-size: cover;
     background-color: black;
     border-width: 0px;
@@ -95,7 +97,7 @@
         height: 74px;
     }
     .subtext {
-        margin-top: -8px;
+        margin-top: 12px;
     }
     .subtextLabel {
         font-size: 14px;
