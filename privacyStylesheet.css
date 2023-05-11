@@ -1,7 +1,7 @@
 .body {
     height: 100%;
-    background-color: white; 
-    color: black;
+    background-color: black; 
+    color: white;
 
     margin-left: 15%;
     margin-right: 15%;
@@ -35,8 +35,4 @@ ul {
 }
 li {
     margin-top: 0.5%;
-}
-@font-face {
-    font-family: SFCompactText-Regular;
-    src: url(Assets/SF-Compact-Text-Regular.otf);
 }

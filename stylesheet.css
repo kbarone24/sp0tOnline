@@ -1,84 +1,118 @@
 .body {
     height: 100%;
-    background-color: white; 
-    color: black;
+    background-color: black; 
+    color: white;
 
     margin-top: 8%;
-    margin-bottom: 10%;;
-
+    margin-bottom: 0%;
+    resize: horizontal;
     line-height: 37px;
-    font-family: Fraunces;
-    font-size: 30px;
 }
-.opener {
-    margin-top: 1%;
-    margin-right: 2%;
-    text-align: center;
+.logoWithText {
+    width: 100%;
+    max-height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .logo {
-    margin-top: 0%;
-    width: 50%;
-    margin-left: 25%;
-}
-.button {
     margin-top: 2%;
+    width: 120px;
+    height: 120px;
+}
+.opener {
+    font-family: Comic Sans MS;
+    font-size: 150px;
+    display: inline-flex;
+    margin-inline-start: 30px;
+}
+.subtext {
+    margin-top: 62px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subtextLabel {
+    margin-top: 0%;
+    font-size: 30px;
+    text-align: center;
+    font-family: Comic Sans MS;
+}
+.download {
+    margin-top: -18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.downloadButton {
+    background-image: url(Assets/downloadOnAppStoreIcon.svg);
+    background-size: cover;
     background-color: black;
-    border: none;
-    color: white;
-    text-align: center;
-    font-size: 24px;
-    font-family: SFCompactText-Bold;
-    border-radius: 16.25px;
-    width: 30%;
-    aspect-ratio: 7;
-    margin-left: 34%;
+    border-width: 0px;
+    width: 295.9px;
+    height: 90px;
 }
-div {
-    margin: auto;
-    width: 50%;
-}
-.privacyButton {
-    background-color: transparent;
-    background-repeat: no-repeat;
-    border: none;
-    overflow: hidden;
-    outline: none;
-    position: absolute;
+
+.privacy {
+    position: fixed;
+    width: 98%;
     bottom: 2%;
-    right: 2%;
-    font-size: small;
-    font-family: SFCompactText-Regular;
-    text-align: center;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+
+.privacyButton {
+    margin-bottom: 0%;
+    height: 24px;
+    inline-size: auto;
+    resize: both;
+
+    font-family: 'SF Compact Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+        
+    color: #39F3FF;
+    background-color: black;
+    border-width: 0px;
 }
 
 /* mobile-only*/
 @media only screen and (max-width: 768px) {
     .body {
         margin-top: 38%;
-        font-size: 18px;
         line-height: 22px;
     }
     .opener {
-        margin-top: 3%;
-        width: 100%
+        font-size: 72px;
+        margin-inline-start: 20px;
     }
     .logo {
-        margin-left: 6%;
-        width: 88%;
-        float: none;
+        width: 74px;
+        height: 74px;
     }
-    .button {
-        margin-top: 6%;
-        font-size: 16px;
-        width: 94%;
-        margin-left: 3%;
-        border-radius: 13.64px;
+    .subtext {
+        margin-top: -8px;
+    }
+    .subtextLabel {
+        font-size: 14px;
+    }
+    .downloadButton {
+        margin-top: 12px;
+        width: 161.5px;
+        height: 49.12px;
+    }
+    .privacy {
+        align-items: center;
+        justify-content: center;
     }
     .privacyButton {
-        right: 5%;
-        left: 5%;
+        font-size: 18px;
     }
-}
+})
 
 /* iPhone 8 and below */
 @media only screen and (max-height: 600px) {
@@ -88,12 +122,8 @@ div {
 }
 
 @font-face {
-    font-family: Fraunces;
-    src: url(Assets/fraunces.ttf);
-}
-@font-face {
-    font-family: SFCompactText-Bold;
-    src: url(Assets/SF-Compact-Text-Bold.otf);
+    font-family: Comic Sans MS;
+    src: url(Assets/Comic-Sans-MS.ttf);
 }
 @font-face {
     font-family: SFCompactText-Regular;
