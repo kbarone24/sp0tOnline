@@ -46,7 +46,7 @@
     justify-content: center;
 }
 .downloadButton {
-    background-image: url(Assets/downloadOnAppStoreIcon.svg);
+    background-image: url(Assets/downloadIcon.png);
     background-size: cover;
     background-color: black;
     border-width: 0px;
@@ -69,7 +69,7 @@
     inline-size: auto;
     resize: both;
 
-    font-family: 'SF Compact Text';
+    font-family: SF Compact Text;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -112,7 +112,7 @@
     .privacyButton {
         font-size: 18px;
     }
-})
+}
 
 /* iPhone 8 and below */
 @media only screen and (max-height: 600px) {
